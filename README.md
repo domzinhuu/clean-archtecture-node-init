@@ -93,7 +93,7 @@ ainda não tenha nenhum teste.
 ## **ESLINT**
 
 ```
-npm i -D eslint eslint-config-standard-with-typescript eslint-plugin-import eslint-plugin-node eslint-plugin-promise
+npm i -D eslint@7 eslint-plugin-promise@4 eslint-plugin-import@2 eslint-plugin-node@11 @typescript-eslint/eslint-plugin@4 eslint-config-standard-with-typescript
 ```
 
 ESLint é uma ferramenta de lint plugável para JavaScript e JSX.
@@ -120,6 +120,29 @@ Após a finalização da instalação adicione o seguinte comando no bloco de sc
 
 O Comando acima fará uma varredura no codigo do projeto na pasta <code>./src</code> e suas dependencias internas procurando por código que esteja fora
 dos padrões definidos no **eslint-config-standard**.
+
+Crie também na raiz do projeto dois novos arquivos o `.eslintrc.json` e o `.eslintignore` com o seguinte conteúdo.
+
+.eslintrc.json
+
+```json
+{
+  "extends": "standard-with-typescript",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "@typescript-eslint/space-before-function-paren": "off",
+    "@typescript-eslint/strict-boolean-expressions": "off"
+  }
+}
+```
+
+.eslintignore
+```json
+node_modules
+dist
+```
 
 ## **LINT-STAGED**
 
