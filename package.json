@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/domzinhuu/clean-archtecture-node-init/issues"
   },
-  "homepage": "https://github.com/domzinhuu/clean-archtecture-node-init#readme"
+  "homepage": "https://github.com/domzinhuu/clean-archtecture-node-init#readme",
+  "dependencies": {
+    "git-commit-msg-linter": "^3.1.0"
+  }
 }
