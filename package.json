@@ -4,6 +4,7 @@
   "description": "<div align=\"center\">\r     <img align=\"center\" src=\"https://fullstackmark.com/img/posts/18/clean-architecture-layers.png\" alt=\"clean archtecture\" width=\"200px\">    \r </div>",
   "main": "index.js",
   "scripts": {
+    "lint-staged": "lint-staged",
     "lint": "eslint ./src/** --fix",
     "test": "jest --watch",
     "test:staged": "jest --passWithNoTests"
