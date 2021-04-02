@@ -4,7 +4,8 @@
   "description": "<div align=\"center\">\r     <img align=\"center\" src=\"https://fullstackmark.com/img/posts/18/clean-architecture-layers.png\" alt=\"clean archtecture\" width=\"200px\">    \r </div>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watch",
+    "test:staged": "jest --passWithNoTests"
   },
   "repository": {
     "type": "git",
@@ -29,7 +30,10 @@
     "git-commit-msg-linter": "^3.1.0"
   },
   "devDependencies": {
+    "@types/jest": "^26.0.22",
     "@types/node": "^14.14.37",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.4",
     "ts-node": "^9.1.1",
     "typescript": "^4.2.3"
   }
