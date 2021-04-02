@@ -1,0 +1,28 @@
+{
+  "name": "clean-archtecture-node-init",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">\r     <img align=\"center\" src=\"https://fullstackmark.com/img/posts/18/clean-architecture-layers.png\" alt=\"clean archtecture\" width=\"200px\">    \r </div>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domzinhuu/clean-archtecture-node-init.git"
+  },
+  "keywords": [
+    "clean archtecture",
+    "nodejs",
+    "typescript",
+    "tdd",
+    "linter",
+    "husky",
+    "lint-staged"
+  ],
+  "author": "Maique Rosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/domzinhuu/clean-archtecture-node-init/issues"
+  },
+  "homepage": "https://github.com/domzinhuu/clean-archtecture-node-init#readme"
+}
