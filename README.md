@@ -139,6 +139,7 @@ Crie também na raiz do projeto dois novos arquivos o `.eslintrc.json` e o `.esl
 ```
 
 .eslintignore
+
 ```json
 node_modules
 dist
@@ -213,6 +214,18 @@ e a configuração pode ser levemente diferente da que vou apresentar mas, qualq
 
 ```
 npx husky add .husky/pre-commit "lint-staged"
+```
+
+4 - Acesse a pasta criada `.husky` nela localize o arquivo `pre-commit` e abra para edita-lo
+
+5 - adicione o `npm run` a linha onde esta o comando `lint-staged`. O arquivo ficará da seguinte forma:
+
+```
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npm run lint-staged
+
 ```
 
 ## **GIT-COMMIT-MSG-LINTER**
