@@ -4,6 +4,7 @@
   "description": "<div align=\"center\">\r     <img align=\"center\" src=\"https://fullstackmark.com/img/posts/18/clean-architecture-layers.png\" alt=\"clean archtecture\" width=\"200px\">    \r </div>",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint ./src/** --fix",
     "test": "jest --watch",
     "test:staged": "jest --passWithNoTests"
   },
@@ -32,6 +33,12 @@
   "devDependencies": {
     "@types/jest": "^26.0.22",
     "@types/node": "^14.14.37",
+    "@typescript-eslint/eslint-plugin": "^4.20.0",
+    "eslint": "^7.23.0",
+    "eslint-config-standard-with-typescript": "^20.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
     "jest": "^26.6.3",
     "ts-jest": "^26.5.4",
     "ts-node": "^9.1.1",
