@@ -139,6 +139,7 @@ Crie também na raiz do projeto dois novos arquivos o `.eslintrc.json` e o `.esl
 ```
 
 .eslintignore
+
 ```json
 node_modules
 dist
@@ -196,7 +197,11 @@ Minha ideia é ter um repositorio limpo com commits pequenos e padronizados e o 
 Após instala-lo será preciso configurar. Nesta estrutura inicial estou usando a versão: 6.0.0, se você está no futuro pode haver uma nova versão
 e a configuração pode ser levemente diferente da que vou apresentar mas, qualquer duvida acesse a documentação [aqui](https://typicode.github.io/husky/#/).
 
-1 - Após instalar a dependencia execute o comando <code>npx husky install</code>
+1 - Após instalar a dependencia execute o comando
+
+```
+npx husky install
+```
 
 2 - Em seguida abra o package.json e adicione o script abaixo na lista de **scripts**
 
@@ -212,7 +217,7 @@ e a configuração pode ser levemente diferente da que vou apresentar mas, qualq
 3 - Crie um hook para ser executado toda vez que fizermos um commit, como estamos em parceria com o **lint-staged** então precisamos passar na criação do hook o script para executar o **lint-staged**, para isso execute o comando abaixo:
 
 ```
-npx husky add .husky/pre-commit "lint-staged"
+npx husky add .husky/pre-commit "npm run lint-staged"
 ```
 
 ## **GIT-COMMIT-MSG-LINTER**
