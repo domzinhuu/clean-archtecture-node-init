@@ -27,5 +27,10 @@
   "homepage": "https://github.com/domzinhuu/clean-archtecture-node-init#readme",
   "dependencies": {
     "git-commit-msg-linter": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.37",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
   }
 }
