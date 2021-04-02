@@ -2,10 +2,10 @@
     <img align="center" src="https://fullstackmark.com/img/posts/18/clean-architecture-layers.png" alt="clean archtecture" width="200px">    
 </div>
 
-<h1 align="center"> Clean archtecture Node init </h1>
+<h1 align="center"> NodeJs, Typescript, TDD, DDD, Clean Architecture e SOLID </h1>
 
 <p align="justify">Este é um esqueleto de um projeto inicial com node onde faço uso de algumas configurações que permitirão um controle maior no desenvolvimento de um projeto em node com typescript, seja ele uma API ou um projeto WEB completo. 
-    Abaixo listo e explico o que foi usado e para que estou usando tal lib ou tal configuração. Sinta-se livra para dar um fork e enviar PR para melhorar essa estrutura.
+    Abaixo listo e explico o que foi usado e para que estou usando tal lib ou tal configuração. Sinta-se livre para dar um fork e enviar PR para melhorar essa estrutura.
 </p>
 
 ## INICIALIZANDO O PROJETO
