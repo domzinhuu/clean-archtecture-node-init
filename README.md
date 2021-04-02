@@ -195,7 +195,7 @@ npx husky add .husky/pre-commit "lint-staged"
 ## **GIT-COMMIT-MSG-LINTER**
 
 ```
-npm i git-commit-msg-linte
+npm i git-commit-msg-linter
 ```
 
 Está será a unica dependencia que instalaremos como dependencia do projeto **NESTE ESQUELETO DE PROJETO** o git-commit-msg-linter faz uma verificação em cada commit e nos "força" ter mensagens padronizadas
